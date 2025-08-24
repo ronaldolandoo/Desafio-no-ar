@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+}
+
+div#parte1 {
+    flex-direction: column;
+}
+
+div#parte1:first-child {
+    min-width: 500px;
+    min-height: 500px;
+    background-color: #CF309C;
+    border-radius: 4%;
+}
+
+div#last-child {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #3C31CE;
+    border-radius: 4%;
+}
